@@ -1,0 +1,28 @@
+@keyframes rotateAnim {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  width:200px;
+}
+
+.scrollContainer {
+  width: 100px;
+  height: 100px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.scrollContainer > div {
+  height: 100px;
+  display: block;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+}
