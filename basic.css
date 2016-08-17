@@ -11,7 +11,7 @@
   width:200px;
 }
 
-.scrollContainer {
+.scrollable {
   width: 100px;
   height: 100px;
   overflow-x: hidden;
@@ -19,7 +19,7 @@
   font-size: 0;
 }
 
-.scrollContainer > div {
+.scrollable > div {
   height: 100px;
   display: block;
   line-height: 100px;
