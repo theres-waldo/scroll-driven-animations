@@ -1,0 +1,30 @@
+@keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(1turn); }
+}
+
+#spinner-container {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  top: 0;
+}
+
+#spinner {
+  height: 100px;
+  animation-name: spin;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+#active {
+  width: 100%;
+  background: linear-gradient(red, blue);
+  height: 600px;
+  margin-top: 1000px;
+  margin-bottom: 2000px;
+}
