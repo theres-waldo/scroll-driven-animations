@@ -1,0 +1,22 @@
+@keyframes progress {
+  from { width: 0vw; }
+  to { width: 100vw; }
+}
+
+#progress {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 5px;
+  background-color: red;
+  animation-name: progress;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+}
+
+#content {
+  width: 100%;
+  background: linear-gradient(lime, cyan);
+  height: 2000px;
+}
