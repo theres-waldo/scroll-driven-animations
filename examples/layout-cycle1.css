@@ -1,0 +1,17 @@
+#offset {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+
+#top {
+  background: linear-gradient(yellow, red);
+  height: 1000px;
+}
+
+#bottom {
+  background: linear-gradient(lime, cyan);
+  height: 1000px;
+}
