@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
       orientation: "vertical"
     });
     animation.timeline = timeline;
+    animation.startTime = 0;
     animation.play();
   });
 });
