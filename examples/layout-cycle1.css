@@ -1,4 +1,4 @@
-#offset {
+#reporter {
   position: fixed;
   height: 50px;
   width: 100%;
@@ -8,7 +8,7 @@
 
 #top {
   background: linear-gradient(yellow, red);
-  height: 1000px;
+  height: 10000px;
 }
 
 #bottom {
