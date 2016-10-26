@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     let timeline = new ScrollTimeline({
       scrollSource: scrollable, 
       orientation: "vertical",
+      fillMode: "forwards"  // Should this be required?
     });
     animation.timeline = timeline;
     animation.startTime = 0;
