@@ -48,17 +48,22 @@
         </ul>
       </li>
       <li><a href="examples/worklet-hideybar.html">Hidey-bar</a></li>
-      <!--
       <li>Spring timing function
         <ul>
-          <li>This requires customizing the animation-timing-function, which is out of scope</li>
+          <li>This requires customizing the <code>animation-timing-function</code>, which is out of scope</li>
         </ul>
       </li>
-      <li>Position: sticky</li>
+      <li><a href="examples/worklet-stickypos.html"><code>position: sticky</code></a>
+        <ul>
+          <li>Note: Firefox supports <code>position: sticky</code> natively, so, while it's possible to emulate it using scroll-driven animations, it's not necessary</li>
+        </ul>
+      </li>
+      <!--
       <li>Procedural animation of multiple elements in sync</li>
       <li>Multiple scrollers scrolling in sync
         <ul>
           <li>This would require the ability to animate a scroll offset.</li>
+          <li>However, the <a href="examples/worklet-minimap.html">effect can be achieved</a> if the minimap is not itself required to be scrollable</li>
         </ul>
       </li>
       <li>Fling curves with custom physics
